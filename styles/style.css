@@ -1,0 +1,132 @@
+*{
+   margin: 0%;
+   padding: 0%;
+   
+}
+
+.navbae{
+   display: flex;
+   justify-content: space-between;
+ margin-left: 200px;
+ margin-right: 200px;
+ margin-top: 20px;
+
+}
+
+.Sign-in{
+   padding: 7px 15px;
+   border: solid 1px green;
+   border-radius: 6px;
+}
+
+header{
+   width:80%;
+   
+   margin:0 auto;
+}
+
+.banner-first{
+   margin-top: 20px;
+   margin-left: 150px;
+   margin-right: 150px;
+   background-color:#C6E4D6;
+   display: flex;
+   justify-content: space-around;
+   border-radius: 15px;
+  
+}
+
+.banner-left{
+   padding-left: 10px;
+   padding-top: 150px;
+}
+.banner-right{
+   margin-bottom: 40px;
+}
+
+.button-style-hero{
+   background-color:#006A50;
+   margin-top: 40px;
+   padding: 10px 10px;
+  border-radius: 8px;
+  color: aliceblue;
+   
+
+}
+.bangladesh2{
+   margin-bottom: 20px;
+   color: gray;
+}
+
+.Pillars-of{
+   text-align: center;
+   
+   
+}
+
+.box{
+   text-align: justify;
+   width: 300px;
+   height: 200px;
+   /* border: 10x solid grey; */
+   padding:20px;
+   background-color: rgba(248, 239, 239, 0.377);
+   border-radius: 10px;
+}
+.all-boxes{
+   display: flex;
+   justify-content: center;
+   margin-left: 150px;
+   margin-right:150px;
+  
+
+}
+
+.margen_box{
+   margin-left: 25px;
+}
+.rnd-head{
+   text-align: justify;
+   margin-left: 150px;
+   margin-top: 40px;
+   margin-bottom: 20px;
+   
+}
+
+.btn_big{
+   background-color: #548ff5;
+   border: none;
+}
+.big-box{
+   padding: 50px;
+   background-color: #548ff554;
+}
+
+.second_big_box{
+   padding: 50px;
+   background-color: #C6E4D6;
+}
+.second_big_box_btn{
+   background-color:#09A15C;
+   border: none;
+}
+
+.last_big_box{
+   padding: 50px;
+   background-color: #F7EBCF;
+}
+.last_big_box_btn{
+   
+   background-color: #FFC239;
+   border: none;
+}
+.text_dr{
+   background-color: antiquewhite;
+   background-image:url(../assets/quote-bg.png);
+   background-repeat: no-repeat;
+   margin-left: 340px;
+   margin-right: 340px;
+   margin-top: 40px;
+   margin-bottom: 50px;
+   padding: 30px 30px;
+}
