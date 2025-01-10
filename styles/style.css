@@ -14,7 +14,7 @@
 }
 
 .Sign-in{
-   padding: 7px 15px;
+   padding: 10px 25px;
    border: solid 1px green;
    border-radius: 6px;
 }
@@ -70,7 +70,7 @@ header{
    height: 200px;
    /* border: 10x solid grey; */
    padding:20px;
-   background-color: rgba(248, 239, 239, 0.377);
+   background-color:white;
    border-radius: 10px;
 }
 .all-boxes{
@@ -121,12 +121,49 @@ header{
    border: none;
 }
 .text_dr{
-   background-color: antiquewhite;
+   background-color:white;
    background-image:url(../assets/quote-bg.png);
    background-repeat: no-repeat;
-   margin-left: 340px;
-   margin-right: 340px;
+   margin-left: 150px;
+   margin-right: 150px;
    margin-top: 40px;
    margin-bottom: 50px;
-   padding: 30px 30px;
+   padding-right: 20px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   padding-left: 10px;
+   border-radius: 15px;
+   border: 1px solid gray;
+   
+   
+}
+.koms_text{
+   margin-right: 10px;
+}
+.this-is-younud{
+   margin-top: 15px;
+}
+header{
+   width: 80%;
+   background-color: #e3ebe77c;
+   padding-top: 10px;
+   padding-bottom: 20px;
+}
+
+main{
+   width: 80%;
+   background-color:#e3ebe77c ;
+   margin-left: 380px;
+}
+.footer_text{
+   text-align: center;
+   padding-bottom: 50px;
+   padding-top: 10px;
+}
+.icon{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   gap: 40px;
+   margin-right: 10px;
 }
