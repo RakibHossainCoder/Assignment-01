@@ -1,3 +1,12 @@
+body{
+   
+      font-family: "Fira Sans", serif;
+      font-weight: 400;
+      font-style: normal;
+    
+}
+
+
 *{
    margin: 0%;
    padding: 0%;
@@ -15,8 +24,9 @@
 
 .Sign-in{
    padding: 10px 25px;
-   border: solid 1px green;
+   border: solid 2px green;
    border-radius: 6px;
+   font-weight: 800;
 }
 
 header{
@@ -247,6 +257,7 @@ main{
 }
 .donate_text{
    color: grey;
+   
 }
 .donet-hadding{
    margin-top: 50px;
@@ -264,32 +275,122 @@ main{
 .text_box_input{
    margin-left: 300px;
    margin-right: 300px;
-   height: 40px;
+   margin-bottom: 50px;
+   height: 50px;
    width: auto;
    text-align: center;
    border: none;
    border-radius: 5px;
    color: grey;
 }
-.button-pot{
- 
-}
+
 
 .btn{
 	background-color: #006A50;
 	color: #ffffff;
-	border: none;
-	outline: none;
-	display: inline-block;
-	text-transform: capitalize;
+	/* border:5px solid green; */
 	padding: 10px 15px;
 	font-size: 20px;
 	border-radius: 5px;
 	cursor: pointer;
-	transition: .5s;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* margin: 0px auto; */
+}
+#button{
+   margin: 0px auto;
 }
 .btn:hover{
 	background: rgb(0, 0, 0);
 	color: #ffffff;
 	font-size: 24px;
+}
+
+/* table */
+ 
+
+table {
+   width: 80%;
+   border-collapse: collapse;
+   margin-top: 20px;
+   margin-right: 150px;
+   margin-left: 150px;
+  
+  
+  
+}
+
+th, td {
+   border: 1px solid #ddd;
+   padding: 12px;
+   text-align: left;
+}
+
+th {
+   background-color: #C6E4D6;
+   color: #333;
+}
+
+tr:nth-child(even) {
+   background-color: #e2e8e865;
+}
+
+tr:hover {
+   background-color:rgba(78, 180, 64, 0.674);
+}
+
+select {
+   
+   padding: 8px;
+   font-size: 14px;
+}
+
+.this_is_table_section{
+   background-color:rgba(237, 241, 239, 0.931);
+   padding: 20px 20px ;
+   margin-bottom: 10px;
+   padding-bottom: 50px;
+}
+.your_opinion{
+   display: flex;
+   justify-content:start;
+   margin-left: 150px;
+}
+.sub_scr{
+   background-color: #C6E4D6;
+   border-radius: 15px;
+   justify-content: center;
+   text-align: center;
+   margin-left: 150px;
+   margin-right: 150px;
+   margin-top: 60px;
+}
+.class_subscr{
+   padding-bottom: 30px;
+   padding-top: 50px;
+}
+.sub-scr_p{
+   padding-bottom: 30px;
+}
+.sub-scrs{
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+.subNew_Enter_text{
+   height: 60px;
+   width:500px ;
+   border: none;
+   border-radius: 6px;
+   text-align: center;
+}
+.subscribe_button{
+   height: 60px;
+   width:150px;
+  border-radius: 5px;
+  background-color: #006A50;
+  font-weight: 800;
+  color: white;
+  border: none;
+ 
 }
