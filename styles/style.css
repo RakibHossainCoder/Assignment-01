@@ -68,18 +68,17 @@ header{
    text-align: justify;
    width: 300px;
    height: 200px;
-   /* border: 10x solid grey; */
    padding:20px;
    background-color:white;
    border-radius: 10px;
+
 }
 .all-boxes{
    display: flex;
    justify-content: center;
    margin-left: 150px;
    margin-right:150px;
-  
-
+   
 }
 
 .margen_box{
@@ -119,6 +118,7 @@ header{
    
    background-color: #FFC239;
    border: none;
+   
 }
 .text_dr{
    background-color:white;
@@ -133,7 +133,7 @@ header{
    padding-bottom: 30px;
    padding-left: 10px;
    border-radius: 15px;
-   border: 1px solid gray;
+   border: 1px solid rgba(216, 216, 216, 0.713);
    
    
 }
@@ -166,4 +166,130 @@ main{
    flex-direction: row;
    gap: 40px;
    margin-right: 10px;
+}
+.border_box{
+   border: 1px solid rgba(128, 128, 128, 0.193);
+}
+
+.Recent_news{
+   
+   justify-content: center;
+   margin-left: 150px;
+   margin-right:150px;
+   padding-bottom: 40px;
+}
+
+.Bangladesh_Lau{
+   background-color: white;
+   display: flex;
+   justify-content: end;
+   margin-left:150px;
+   margin-right: 150px;
+   padding: 40px 40px;
+   
+}
+.news_btn{
+   background-color: #006A50;
+   
+}
+.Recent_news_pic{
+   border-radius: 20px;
+}
+
+.right_text{
+   padding: 40px 40px;
+}
+.news_text_color{
+   color: gray;
+   justify-content: center;
+}
+.last_news{
+   margin-top: 50px;
+   justify-content: center;
+   border-radius: 20px;
+}
+.section_end{
+   justify-content: center;
+   border-radius: 20px;
+}
+.donet_today{
+   text-align: center;
+}
+.taka{
+   
+   text-align: justify;
+   width: 100px;
+   height: 30px;
+   padding:20px;
+   display: flex;
+   background-color:white;
+   margin: 10px 10px;
+   flex-direction: row;
+   border-radius: 10px;
+   border: 1px solid rgba(128, 128, 128, 0.277);
+   font-weight: 800;
+
+}
+
+.amount_taka{
+   margin-top: 30px;
+   display: flex;
+   justify-content:center;
+   margin-left: 150px;
+   margin-right:150px;
+  
+}
+._margen{
+   margin-left: 15px;
+}
+.selects_two{
+   background-color:#C6E4D6 ;
+}
+.donate_text{
+   color: grey;
+}
+.donet-hadding{
+   margin-top: 50px;
+   margin-bottom: 20px;
+}
+.donate-text_now{
+   margin-top: 30px;
+   display:flex;
+   justify-content:center;
+   margin-left: 150px;
+   margin-right:150px;
+   flex-direction: column;
+}
+
+.text_box_input{
+   margin-left: 300px;
+   margin-right: 300px;
+   height: 40px;
+   width: auto;
+   text-align: center;
+   border: none;
+   border-radius: 5px;
+   color: grey;
+}
+.button-pot{
+ 
+}
+
+.btn{
+	background-color: #006A50;
+	color: #ffffff;
+	border: none;
+	outline: none;
+	display: inline-block;
+	text-transform: capitalize;
+	padding: 10px 15px;
+	font-size: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: .5s;
+}
+.btn:hover{
+	background: rgb(0, 0, 0);
+	color: #ffffff;
+	font-size: 24px;
 }
