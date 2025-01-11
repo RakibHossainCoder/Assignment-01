@@ -176,6 +176,7 @@ main{
    flex-direction: row;
    gap: 40px;
    margin-right: 10px;
+   margin-bottom: 10px;
 }
 .border_box{
    border: 1px solid rgba(128, 128, 128, 0.193);
